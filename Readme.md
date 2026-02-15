@@ -7,9 +7,8 @@ This project focuses on accessibility, readability, and proper document structur
 
 ## 🚀 Live Demo
 
-🔗 https://your-username.github.io/repository-name/
+🔗 https://github.com/sahilmehra2003/html-resume-page.git
 
-*(Update after deployment)*
 
 ---
 
@@ -23,6 +22,8 @@ This project focuses on accessibility, readability, and proper document structur
 
 ### 🔹 Full Page
 ![Full Page](screenshots/fullpage.png)
+
+![alt text](full-page.png)
 
 *(Add images inside a `screenshots` folder)*
 
