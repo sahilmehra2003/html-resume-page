@@ -7,7 +7,7 @@ This project focuses on accessibility, readability, and proper document structur
 
 ## 🚀 Live Demo
 
-🔗 https://github.com/sahilmehra2003/html-resume-page.git
+🔗 https://sahilmehra2003.github.io/html-resume-page/index.html
 
 
 ---
@@ -15,17 +15,15 @@ This project focuses on accessibility, readability, and proper document structur
 ## 📸 Screenshots
 
 ### 🔹 Header
-![Header](screenshots/header.png)
+![alt text](header.png)
 
 ### 🔹 Projects Section
-![Projects](screenshots/projects.png)
+![alt text](project.png)
 
 ### 🔹 Full Page
-![Full Page](screenshots/fullpage.png)
-
 ![alt text](full-page.png)
 
-*(Add images inside a `screenshots` folder)*
+
 
 ---
 
