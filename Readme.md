@@ -1,11 +1,11 @@
-# 📄 Resume Webpage
+#  Resume Webpage
 
 A clean and professional resume webpage built using semantic HTML and structured layout principles.  
 This project focuses on accessibility, readability, and proper document structure.
 
 ---
 
-## 🚀 Live Demo
+##  Live Demo
 
 🔗 https://sahilmehra2003.github.io/html-resume-page/index.html
 
@@ -28,7 +28,7 @@ This project focuses on accessibility, readability, and proper document structur
 
 ---
 
-## ✨ Features
+##  Features
 
 - Semantic HTML structure
 - Clean and professional layout
@@ -39,18 +39,17 @@ This project focuses on accessibility, readability, and proper document structur
 
 ---
 
-## 🛠 Technologies Used
+##  Technologies Used
 
 - HTML5  
 - CSS3  
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 resume-website/
 │
 ├── index.html
-├── styles.css
 ├── screenshots/
 │ ├── header.png
 │ ├── projects.png
@@ -59,15 +58,19 @@ resume-website/
 
 ---
 
-## ⚙️ Setup & Usage
+##  Setup & Usage
 
-1️⃣ Clone the repository
+1 Clone the repository
+🔗 https://github.com/sahilmehra2003/html-resume-page.git
 
 
 
-2️⃣ Open the project folder
-3️⃣ Open `index.html` in your browser.
+2️ Open the project folder
+3️ Open `index.html` in your browser.
 
-## 🌐 Deployment (GitHub Pages)
+##  Deployment (GitHub Pages)
 
 This project is deployed using **GitHub Pages**.
+
+
+🔗 https://sahilmehra2003.github.io/html-resume-page/index.html
