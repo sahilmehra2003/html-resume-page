@@ -15,7 +15,8 @@ This project focuses on accessibility, readability, and proper document structur
 ## 📸 Screenshots
 
 ### 🔹 Header
-![alt text](header.png)
+
+![alt text](header-1.png)
 
 ### 🔹 Projects Section
 ![alt text](project.png)
