@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <style>
+        body{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        h1{
+            text-align: center;
+            margin-block-end: 5px;
+        }
+        .subheading{
+            text-align: center;
+            margin-block-start: 5px;
+        }
+        .social-links{
+            list-style: none;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            gap: 25px;
+        }
+        .social-links a{
+            color: #2b2b2b;
+        }
+        main{
+            padding-inline: 25px;
+        }
+        main section{
+            border-bottom: 1px solid black;
+        }
+        main section h2{
+            margin-bottom: 5px;
+        }
+        main section p{
+            margin-top: 8px;
+            margin-bottom: 5px;
+        }
+        .about-me{
+            width: 100%;
+        }
+        .desc{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        article ul{
+            margin-top: -6px;
+        }
+        footer{
+            padding-left: 30px;
+        }
+        table, th, td {
+            border: 1px solid black;
+            padding-block: 2px;
+            margin-bottom: 10px;
+            
+        }
+        th, td{
+            padding-inline: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>SAHIL MEHRA</h1>
+        <p class="subheading">Full Stack Web Developer — Angular, React, Node.js</p>
+        <nav>
+            <ul class="social-links">
+                <li><a href="tel:919999999999">+91-9999999999</a></li>
+                <li><a href="#">Delhi, India</a></li>
+                <li><a href="mailto:example@gmail.com">example@gmail.com</a></li>
+                <li><a href="#">Linkedin</a></li>
+                <li><a href="#">Github</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="about-me">
+            <h2>About Me</h2>
+            <p>Full-stack developer with hands-on experience in scalable Angular/React projects, RESTful APIs, and enterprise
+            tools. Passionate about performance and clean architecture.</p>
+        </section>
+        <section class="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li><strong>Languages: </strong> C++, JavaScript, TypeScript, HTML5, CSS3</li>
+                <li><strong>Frameworks: </strong>Angular, React, Node.js, Express.js</li>
+                <li><strong>Databases: </strong>MongoDB, MySQL, PostgreSQL</li>
+                <li><strong>Tools: </strong>Git, GitHub, Postman, Prisma, Neon, MySQL Workbench,Bootsrap,Tailwind Css,Angular Material,Schad Cn</li>
+                <li><strong>CS Topics: </strong> Data Structures & Algorithms, Operating Systems, DBMS, Computer Networks, OOPS</li>
+            </ul>
+        </section>
+        <section class="experience">
+            <h2>Experience</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th><strong>Position</strong></th>
+                        <th><strong>Company</strong></th>
+                        <th><strong>Duration</strong></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Junior Mean Stack Developer</td>
+                        <td>Saffron Tech Pvt. Ltd.</td>
+                        <td>Mar 2025 - Present</td>
+                    </tr>
+                    <tr>
+                        <td>Web Developer Intern</td>
+                        <td>RITES Ltd.</td>
+                        <td>June 2024 - August 2024</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section class="projects">
+            <h2>Projects</h2>
+            <article>
+                <div class="desc">
+                    <h3>Project 1: AdNet – Client Project | Angular,  Node Js, Express, MongoDB, RxJs, Bootstrap, Angular Material</h3>
+                    <span><strong>Present</strong></span>
+                </div>
+                <ul>
+                    <li>Contributing to a legal advertisement platform with complex multi-role workflows (Law Firms, Paralegals,
+Employers).</li>
+                    <li>Improved UI/UX across core modules like Intake, Ad Confirmation, and Billing using Angular and
+Angular Material.</li>
+                    <li>Integrated RESTful backend APIs and optimized frontend performance through lazy loading and modular
+architecture.</li>
+                </ul>
+            </article>
+            <article>
+                <div class="desc">
+                    <h3>Project 2: SEO Analytics Platform – Internal Tool | Angular, Node Js, Express, MongoDB, RxJs,  Angular Material</h3>
+                    <span><strong>July 2025 - Sept 2025</strong></span>
+                </div>
+                <ul>
+                    <li>Built a keyword clustering tool using DataForSEO APIs to scrape SERP results and compute similarity
+scores.</li>
+                    <li>Designed backend logic to group keywords by overlapping top URLs and SERP similarity, forming
+high-quality content clusters.</li>
+                    <li>Created Angular dashboards with filtering and charting for marketing teams to visualize performance and
+content gaps</li>
+                </ul>
+            </article>
+            <article>
+                <div class="desc">
+                <h3>Project 3: WORKSPHERE - Major Project | React, Redux, Node Js, Express, MongoDB, JWT, Material-UI </h3>
+                <span><strong>Dec 2023 - June 2024</strong></span>
+                </div>
+                <ul>
+                    <li>Architected a full-stack HRMS platform from scratch, featuring role-based access control (RBAC) and
+modules for employee, leave, and financial management.
+</li>
+                    <li>Engineered a complete performance management module with features for dynamic goal setting, progress
+tracking, and a multi-stage review process (self, manager).</li>
+                    <li>Developed a secure backend with Node.js and Express, using JWT for authentication and implementing
+granular, permission-based API endpoints.
+</li>
+                    <li>Built a responsive and interactive frontend using React and Redux for state management, including data
+visualization for performance analytics.</li>
+                </ul>
+            </article>
+            
+        </section>
+        <section class="education">
+            <h2>Education</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th><strong>Degree</strong></th>
+                        <th><strong>Institution</strong></th>
+                        <th><strong>Year</strong></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Web Dev Cohort 2026</td>
+                        <td>Chai Code Academy</td>
+                        <td>Present</td>
+                    </tr>
+                    <tr>
+                        <td>Bachelor of Computer Science & Engineering</td>
+                        <td>SRM University</td>
+                        <td>2025</td>
+                    </tr>
+                    <tr>
+                        <td>Senior Secondary (Class XII)</td>
+                        <td>Oxford Sr. Sec. School</td>
+                        <td>2021</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Sahil Mehra. All Rights Reserved.
+</p>
+    </footer>
+</body>
+</html>
